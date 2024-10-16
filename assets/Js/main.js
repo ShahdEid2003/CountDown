@@ -1,5 +1,5 @@
 const countdown = () => {
-    const countDownDate = new Date("2025-03-02T00:00:00").getTime();
+    const countDownDate = new Date("2025-03-01T00:00:00").getTime();
     const now = new Date().getTime();
     const distance = countDownDate - now;
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));

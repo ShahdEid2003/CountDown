@@ -1,21 +1,33 @@
-
+main{
+    background-image: url(https://img.freepik.com/premium-photo/background-with-islamic-lantern-ornament_1258715-55941.jpg?w=900) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ 
+}
+h1{
+    font-family: "Dancing Script", cursive;
+}
 .container{
     width:(100% -120px);
     margin:auto;
     text-align:center;
+
+
 }
+
 .countDown-timer{
+    height:400px;
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
-    gap:20px;
+    align-items: center;
+    gap:60px;
 
 }
 .time{
-    width: 50px;
-    text-align: center;
-    box-shadow: 3px -5px 20px 0px #a19f9f;
-    border-radius: 30%  ;
-    font-size: 24px;
+    color: rgb(3, 12, 20);
+
+    font-size: 150px;
     font-weight: bold;
 }
