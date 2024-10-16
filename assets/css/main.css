@@ -1,0 +1,21 @@
+
+.container{
+    width:(100% -120px);
+    margin:auto;
+    text-align:center;
+}
+.countDown-timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+
+}
+.time{
+    width: 50px;
+    text-align: center;
+    box-shadow: 3px -5px 20px 0px #a19f9f;
+    border-radius: 30%  ;
+    font-size: 24px;
+    font-weight: bold;
+}
